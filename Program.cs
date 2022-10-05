@@ -22,7 +22,7 @@ void Encode(string inputPath, string outputPath)
                 sw.Write(c);
             }            
         }
-    }
+    } 
     catch(Exception e)
     {
         Console.WriteLine(e.Message);
